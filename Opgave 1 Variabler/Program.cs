@@ -23,6 +23,7 @@ namespace Opgave_1_Variabler
             kommatal *= 2;
             Console.WriteLine(kommatal);
 
+            
 
             Console.ReadKey();
 
