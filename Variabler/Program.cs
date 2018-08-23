@@ -11,7 +11,7 @@ namespace Variabler
         static void Main(string[] args)
         {
             //testkommentar
-
+            //Jeg tilføjer nyt
         }
     }
 }
