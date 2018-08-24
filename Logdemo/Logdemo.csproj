@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{404B31CF-D964-4FD5-985A-77F9230C2496}</ProjectGuid>
+    <ProjectGuid>{2B3886B4-B961-492E-8BE0-134085F1D25F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Overload</RootNamespace>
-    <AssemblyName>Overload</AssemblyName>
+    <RootNamespace>Logdemo</RootNamespace>
+    <AssemblyName>Logdemo</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -56,6 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
