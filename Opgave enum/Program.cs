@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace Opgave_enum
 {
+    //del 1
     enum Filtyper
     {   csv,
         pdf,
         txt
     }
     
+    //del 2
     struct Person
     {
         public int id;
@@ -24,7 +26,7 @@ namespace Opgave_enum
         static void Main(string[] args)
         {
 
-            //ENUM
+            //ENUM - del 1
             Console.WriteLine("tildeling af csv");
             Filtyper ft = ft = Filtyper.csv;
             Console.WriteLine(ft);
@@ -37,7 +39,7 @@ namespace Opgave_enum
 
             Console.ReadKey();
 
-            //Struct
+            //Struct - del 2
 
             Person p;
             p.id = 1;
