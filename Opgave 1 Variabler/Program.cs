@@ -23,6 +23,7 @@ namespace Opgave_1_Variabler
             kommatal *= 2;
             Console.WriteLine(kommatal);
 
+            //Jeg tilføjer lidt text for at tjekke github
             
 
             Console.ReadKey();
