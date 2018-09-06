@@ -24,3 +24,12 @@ namespace Undervisning
     }
 
 }
+
+namespace Klasser1
+{
+    // public eller internal (private, protected)
+    internal class Person
+    {
+        // medlemmer
+    }
+}

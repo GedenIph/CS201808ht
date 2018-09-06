@@ -29,6 +29,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simpel fejlhåndtering", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logdemo", "Logdemo\Logdemo.csproj", "{2B3886B4-B961-492E-8BE0-134085F1D25F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser (simpel klasse)", "Klasser (simpel klasse)\Klasser (simpel klasse).csproj", "{E1B18A56-2608-451C-AC65-9E3C5CB6A57E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser (Terning)", "Klasser (Terning)\Klasser (Terning).csproj", "{A4C583FB-B63E-4A17-88C4-AB6E0273F5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klasser (statisk)", "Klasser (statisk)\Klasser (statisk).csproj", "{BC0A4634-62BC-45A2-AC83-E643458B2974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indkapsling (simpel egenskab)", "Indkapsling (simpel egenskab)\Indkapsling (simpel egenskab).csproj", "{F506A617-B600-43E7-BF60-C721A16EECD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egenskaber (automatisk egenskab)", "Egenskaber (automatisk egenskab)\Egenskaber (automatisk egenskab).csproj", "{E5B8A77A-26B2-4CEA-A95D-CE903AF435D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +97,26 @@ Global
 		{2B3886B4-B961-492E-8BE0-134085F1D25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B3886B4-B961-492E-8BE0-134085F1D25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B3886B4-B961-492E-8BE0-134085F1D25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B18A56-2608-451C-AC65-9E3C5CB6A57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B18A56-2608-451C-AC65-9E3C5CB6A57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B18A56-2608-451C-AC65-9E3C5CB6A57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B18A56-2608-451C-AC65-9E3C5CB6A57E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C583FB-B63E-4A17-88C4-AB6E0273F5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C583FB-B63E-4A17-88C4-AB6E0273F5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C583FB-B63E-4A17-88C4-AB6E0273F5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C583FB-B63E-4A17-88C4-AB6E0273F5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0A4634-62BC-45A2-AC83-E643458B2974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0A4634-62BC-45A2-AC83-E643458B2974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0A4634-62BC-45A2-AC83-E643458B2974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0A4634-62BC-45A2-AC83-E643458B2974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F506A617-B600-43E7-BF60-C721A16EECD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F506A617-B600-43E7-BF60-C721A16EECD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F506A617-B600-43E7-BF60-C721A16EECD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F506A617-B600-43E7-BF60-C721A16EECD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B8A77A-26B2-4CEA-A95D-CE903AF435D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B8A77A-26B2-4CEA-A95D-CE903AF435D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B8A77A-26B2-4CEA-A95D-CE903AF435D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B8A77A-26B2-4CEA-A95D-CE903AF435D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
